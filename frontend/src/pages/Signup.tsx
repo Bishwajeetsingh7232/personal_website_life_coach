@@ -61,7 +61,7 @@ const Signup = () => {
     // API delay
 try {
   const response = await fetch(
-    "http://localhost:5000/api/auth/signup",
+    "https://personal-website-life-coach.onrender.com/api/auth/signup",
     {
       method: "POST",
 
